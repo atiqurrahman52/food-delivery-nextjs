@@ -1,5 +1,9 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import React, { useState } from "react";
+// import { Link } from "react-router-dom";
+// import SearchModal from "./SearchModal";
+
+import Link from "next/link";
+import { useState } from "react";
 import SearchModal from "./SearchModal";
 
 const MobileBottomNav = () => {
@@ -15,7 +19,7 @@ const MobileBottomNav = () => {
         <div className="grid grid-cols-4">
           <div>
             <Link
-              to="/"
+              href="/"
               className="flex flex-col justify-center items-center gap-1"
             >
               <span>
@@ -50,7 +54,7 @@ const MobileBottomNav = () => {
 
           <div>
             <Link
-              to="/shop"
+              href="/shop"
               className="flex flex-col justify-center items-center gap-1"
             >
               <span>
@@ -184,7 +188,7 @@ const MobileBottomNav = () => {
 
           <div>
             <Link
-              to="/profile"
+              href="/profile"
               className="flex flex-col justify-center items-center gap-1"
             >
               <span className="">

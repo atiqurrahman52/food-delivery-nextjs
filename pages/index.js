@@ -5,6 +5,9 @@ import styles from "@/styles/Home.module.css";
 import HeroSection from "@/components/home/HeroSection";
 import DeliveryWorks from "@/components/home/DeliveryWorks";
 import CustomerFavorites from "@/components/home/CustomerFavorites";
+import Banner from "@/components/home/Banner";
+import ImageGallery from "@/components/home/ImageGallery";
+import Articles from "@/components/home/Articles";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +24,9 @@ export default function Home() {
         <HeroSection />
         <DeliveryWorks />
         <CustomerFavorites />
+        <Banner />
+        <ImageGallery />
+        <Articles />
       </div>
     </>
   );

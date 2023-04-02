@@ -1,14 +1,14 @@
-import user1 from '../../assets/image/about/image-1.webp';
-import user2 from '../../assets/image/about/image-2.webp';
-import user3 from '../../assets/image/about/image-3.webp';
-import user4 from '../../assets/image/about/image-4.webp';
-import user5 from '../../assets/image/about/image-2.webp';
-import user6 from '../../assets/image/about/image-4.webp';
+// import user1 from '../../assets/image/about/image-1.webp';
+// import user2 from '../../assets/image/about/image-2.webp';
+// import user3 from '../../assets/image/about/image-3.webp';
+// import user4 from '../../assets/image/about/image-4.webp';
+// import user5 from '../../assets/image/about/image-2.webp';
+// import user6 from '../../assets/image/about/image-4.webp';
 
 const ourTeamData =[
     {
         id:0,
-        img:user1,
+        img:'/assets/image/about/image-1.webp',
         name:'Brooklyn Simmons',
         title:'Job title',
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
@@ -41,7 +41,7 @@ const ourTeamData =[
     },
     {
         id:1,
-        img:user3,
+        img:'/assets/image/about/image-3.webp',
         name:'Jerome Bell',
         title:'Job title',
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
@@ -74,7 +74,7 @@ const ourTeamData =[
     },
     {
         id:2,
-        img:user6,
+        img:'/assets/image/about/image-4.webp',
         name:'Marvin McKinney',
         title:'Job title',
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
@@ -110,7 +110,7 @@ const ourTeamData =[
     },
     {
         id:3,
-        img:user4,
+        img:'/assets/image/about/image-3.webp',
         name:'Darrell Steward',
         title:'Job title',
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
@@ -144,7 +144,7 @@ const ourTeamData =[
 
     {
         id:4,
-        img:user5,
+        img:'/assets/image/about/image-2.webp',
         name:'Marvin McKinney',
         title:'Job title',
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
@@ -177,7 +177,7 @@ const ourTeamData =[
     },
     {
         id:5,
-        img:user2,
+        img:'/assets/image/about/image-1.webp',
         name:'Darrell Steward',
         title:'Job title',
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',

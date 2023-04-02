@@ -1,6 +1,5 @@
-import Layout from '@/components/layout/Layout'
-import '@/styles/globals.css'
-// important imports for swiper slider
+import Layout from "@/components/layout/Layout";
+import "@/styles/globals.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -10,5 +9,5 @@ export default function App({ Component, pageProps }) {
     <Layout>
       <Component {...pageProps} />
     </Layout>
-  )
+  );
 }

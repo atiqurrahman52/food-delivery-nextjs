@@ -1,29 +1,24 @@
 
-import image1 from '../../assets/image/product-details/potato.webp';
-import image2 from '../../assets/image/product-details/potato.webp';
-import image3 from '../../assets/image/product-details/potato.webp';
-import image4 from '../../assets/image/product-details/potato.webp';
-import image5 from '../../assets/image/product-details/potato.webp';
 const productDescriptionData =[
     {
         id:0,
-        img:image1
+        img:'/assets/image/product-details/potato.webp'
     },
     {
         id:1,
-        img:image2
+        img:'/assets/image/product-details/potato.webp'
     },
     {
         id:2,
-        img:image3
+        img:'/assets/image/product-details/potato.webp'
     },
     {
         id:3,
-        img:image4
+        img:'/assets/image/product-details/potato.webp'
     },
     {
         id:4,
-        img:image5
+        img:'/assets/image/product-details/potato.webp'
     },
 ]
 

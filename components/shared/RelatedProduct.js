@@ -2,8 +2,10 @@ import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
-import { productData } from "../../data/sharedData/productData";
-import { Link } from "react-router-dom";
+import { productData } from "@/data/sharedData/productData";
+import Link from "next/link";
+// import { productData } from "../../data/sharedData/productData";
+// import { Link } from "react-router-dom";
 
 const RelatedProduct = () => {
   return (
@@ -62,7 +64,7 @@ const RelatedProduct = () => {
             >
               {productData.map(({ id, img, price, bgColor, productName }) => (
                 <SwiperSlide key={id}>
-                  <Link to="#" className="relative">
+                  <Link href="#" className="relative">
                     <div
                       style={{ backgroundColor: bgColor }}
                       className="p-6 product-card"
