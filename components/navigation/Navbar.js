@@ -398,7 +398,7 @@ const Navbar = () => {
                   <div className="mobile-menu">
                     <ul className="flex flex-col justify-center items-center px-[34px]">
                       {navBarData.map(({ id, title, path }) => (
-                        //  className={`nav_link font-Raleway font-semibold text-primary text-sm md:text-base leading-6 ${router.pathname === path ? 'activePage' : ''}`} 
+                       
                        
                         <li
                           key={id}

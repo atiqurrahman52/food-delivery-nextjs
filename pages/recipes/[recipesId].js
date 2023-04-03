@@ -2,6 +2,7 @@ import RecipesDetailsBanner from '@/components/recipesDetails/RecipesDetailsBann
 import RecipesIntroductionAndConclusion from '@/components/recipesDetails/RecipesIntroductionAndConclusion';
 import RelatedRecipes from '@/components/recipesDetails/RelatedRecipes';
 import { recipesPostData } from '@/data/recipes/recipesPostData';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React from 'react';
 
@@ -13,6 +14,9 @@ const recipesDetails = () => {0
 
     return (
         <div>
+            <Head>
+                <title> Recipes Details </title>
+            </Head>
             <RecipesDetailsBanner singleRecipe={singleRecipe} />
             <RecipesIntroductionAndConclusion />
             <RelatedRecipes />

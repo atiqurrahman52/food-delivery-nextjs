@@ -1,17 +1,15 @@
-
-// import user from "../../assets/image/profile/user.webp";
-
-
-    import { userMenuBarData } from "@/data/userProfile/userMenuBarData";
+import { userMenuBarData } from "@/data/userProfile/userMenuBarData";
 import Link from "next/link";
-// import { userMenuBarData } from "../../data/userProfile/userMenuBarData";
+import { useRouter } from "next/router";
+
 const UserMenuBar = () => {
+  const router = useRouter();
   return (
     <div className="bg-[#FAFCFC] lg:h-[681px]">
       <div className="flex flex-col items-center mb-10">
         <div className="mb-4">
           <div>
-            <img src='/assets/image/profile/user.webp' alt="" />
+            <img src="/assets/image/profile/user.webp" alt="" />
           </div>
         </div>
         <p className="font-Playfair font-bold text-base lg:text-xl leading-6 lg:leading-[30px] text-[#222329] mb-1">
@@ -26,7 +24,9 @@ const UserMenuBar = () => {
           <li key={id} className="px-4 w-full">
             <Link
               href={path}
-              className="profile-active flex items-center p-2 gap-1 lg:gap-2.5"
+              className={`flex items-center p-2 gap-1 lg:gap-2.5 ${
+                router.pathname === path ? "profile-active" : ""
+              }`}
             >
               <span className="text-[#016A78]">{icon}</span>
               <p className="font-Overpass font-semibold text-sm text-[#016A78] leading-[21px]">
@@ -41,4 +41,3 @@ const UserMenuBar = () => {
 };
 
 export default UserMenuBar;
-

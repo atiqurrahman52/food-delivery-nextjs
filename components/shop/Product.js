@@ -1,8 +1,3 @@
-// import { CirclesThreePlus, SlidersHorizontal } from "@phosphor-icons/react";
-// import React, { useState } from "react";
-// import { Link } from "react-router-dom";
-// import { productData } from "../../data/sharedData/productData";
-
 import { productData } from "@/data/sharedData/productData";
 import { CirclesThreePlus, SlidersHorizontal } from "@phosphor-icons/react";
 import Link from "next/link";

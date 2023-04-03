@@ -176,20 +176,17 @@
 }
 /* NavLink active end  */
 
-/* Profile active start  */
-.profile-active.active{
-  /* padding: 10px 20px; */
+.profile-active{
   border: 1px solid #004738;
   border-radius: 8px;
 }
-.profile-active.active span,
-.profile-active.active p {
+.profile-active span,
+.profile-active p {
   color: #004738;
 }
-.profile-active.active svg path {
+.profile-active svg path {
   stroke: #004738;
 }
-
 /* Profile active end */
 
 

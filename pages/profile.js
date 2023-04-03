@@ -2,11 +2,15 @@ import { EyeSlash } from "@phosphor-icons/react";
 import React from "react";
 import { useState } from "react";
 import UserMenuBar from "../components/userProfile/UserMenuBar";
+import Head from "next/head";
 
 const Profile = () => {
   const [editProfile, setEditProfile] = useState(true);
   return (
     <section id="profile">
+      <Head>
+        <title>Profile</title>
+      </Head>
       <div className="container">
         <div className="py-4 lg:py-8">
           <div className="grid grid-cols-12 gap-6">

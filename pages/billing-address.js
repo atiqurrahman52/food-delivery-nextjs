@@ -1,15 +1,19 @@
 import UserMenuBar from "@/components/userProfile/UserMenuBar";
 import { Plus, Trash } from "@phosphor-icons/react";
+import Head from "next/head";
 import { useState } from "react";
 
 const BillingAddress = () => {
   const [newAddress, setNewAddress] = useState(true);
   return (
     <section id="billing-address">
+      <Head>
+        <title>Billing Address</title>
+      </Head>
       <div className="container">
         <div className="py-4 lg:py-8">
           <div className="grid grid-cols-12 gap-6">
-            <div className="col-span-12 md:col-span-4">
+            <div className="col-span-12 md:col-span-5">
               <UserMenuBar />
             </div>
 
