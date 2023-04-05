@@ -7,10 +7,7 @@ import PaymentStep from "./PaymentStep";
 import ProgressTab from "./ProgressTab";
 import ShoppingCartStep from "./ShoppingCartStep";
 
-// import CheckoutStep from "./CheckoutStep";
-// import PaymentStep from "./PaymentStep";
-// import ProgressTab from "./ProgressTab";
-// import ShoppingCartStep from "./ShoppingCartStep";
+
 
 const CheckoutAndShoppingCart = () => {
   const [currentStep, setCurrentStep] = useState(1);
